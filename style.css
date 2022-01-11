@@ -1,0 +1,92 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.picto 
+{
+ max-height: 50px;
+ max-width: 35px;
+}
+
+li {
+  display: block;
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.google-logo {
+  position: absolute;
+  margin: 9em 32.5em;
+}
+
+#recherche_bar {
+  position: absolute;
+  top: 260px;
+  left: 375px;
+  width: 580px;
+  height: 40px;
+  border: 1px solid #cdcdcd;
+  border-radius: 30px;
+  padding-left: 20px;
+}
+
+#recherche_bar:hover {
+  border-color: grey;
+}
+
+#recherche_bouton {
+  position: absolute;
+  top: 330px;
+  left: 550px;
+  border: 1px solid #dcdcdc;
+  font-size: 11px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+#recherche_bouton:hover {
+  border-color: grey;
+}
+
+#chance_bouton {
+  position: absolute;
+  top: 330px;
+  left: 680px;
+  border: 1px solid #dcdcdc;
+  font-size: 11px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+#chance_bouton:hover {
+  border-color: grey;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  background-color: #efefef;
+  text-align: center;
+  margin: : 20em;
+}
+
+ul.text_footer li {
+  float: left;
+}
